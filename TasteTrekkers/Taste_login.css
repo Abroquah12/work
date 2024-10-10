@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(Iamges/pic1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px); */
+  width: 300px;
+  background-color: white;
+}
+
+/* Form Input Styles */
+.Form form input[type="text"],
+.Form form input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+/* Form Input Focus Styles */
+.Form form input[type="text"]:focus,
+.Form form input[type="password"]:focus {
+  outline: none;
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.Form form a {
+  color: black;
+  display: flex;
+  justify-content: start;
+  text-decoration: none;
+}
+
+.Form form button {
+  width: 270px;
+  border-radius: 10px;
+  padding: 10px 16px;
+} 
+
+.icon-wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+img{
+  height: 40px;
+
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h2{
+  line-height: 5rem;
+}
