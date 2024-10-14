@@ -2,3 +2,107 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-image: url(/TasteTrekkers/Iamges/pic1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reserve{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;  */
+}
+
+label{
+    font-size: x-large;
+    color: white;
+    padding: 10px;
+}
+
+input[type="text"]{
+    height: 30px;
+    width: 15%;
+    outline: none;
+}
+
+input[type="tel"]{
+    height: 30px;
+    width: 15%;
+    outline: none;
+}
+
+input[type="number"]{
+    height: 30px;
+    width: 15%;
+    outline: none;
+    font-size: x-large;
+}
+
+input[type="time"]{
+    height: 30px;
+    width: 15%;
+    outline: none;
+    font-size: x-large;
+}
+
+input[type="date"]{
+    height: 30px;
+    width: 15%;
+    outline: none;
+    font-size: x-large;
+}
+
+button{
+    background-color: transparent;
+    height: 50px;
+    width: 12%;
+    border-radius: 20px;
+    margin-top: 20px; ;
+    padding: 10px 20px;
+    color: white;
+
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    button{
+        width: 50%;
+    }
+    
+    input[type="text"]{
+        
+        width: 70%;
+    }
+    input[type="tel"]{
+        
+        width: 70%;
+    }
+    input[type="time"]{
+        
+        width: 70%;
+    }
+    input[type="number"]{
+        
+        width: 70%;
+    }
+    input[type="date"]{
+        
+        width: 70%;
+    }
+}
+
+
+
+
+
