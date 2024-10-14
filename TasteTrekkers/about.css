@@ -20,6 +20,7 @@ header {
 main {
     padding: 20px;
     min-height: calc(100vh - 96px);
+    color: white;
 }
 
 .about {
